@@ -1,6 +1,6 @@
 import styles from "../styles/components/Profile.module.scss";
 
-export default function Profile() {
+export function Profile() {
   return (
     <div className={styles.profileContainer}>
       <img
